@@ -7,6 +7,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(AudioSource))]
 public class Coin : MonoBehaviour
 {
+	
 	public GameObject FireWorks;
 	
 	public Text SuccessText;
@@ -62,6 +63,7 @@ void Update() {
         //Check remaining coins
         if (Coin.CoinCount <= 0)
         {
+        	Debug.Log("kolikot kerätty");
         	SuccessText.enabled = true;
             //Game is won. Collected all coins
             //Destroy Timer and launch fireworks

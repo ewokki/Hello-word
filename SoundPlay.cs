@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SoundPlay : MonoBehaviour {
 	
-	public AudioClip otherClip;
 	public static AudioSource audio;
 
 
